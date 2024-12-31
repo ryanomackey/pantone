@@ -6,8 +6,11 @@ import pantoneColors from "data/pantone-colors.json";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Pantone Colors" },
+    {
+      name: "description",
+      content: "Pantone Colors, filtered by first letter with hex codes",
+    },
   ];
 }
 
